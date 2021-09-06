@@ -25,5 +25,5 @@ def test_insurance_premium_checking(browser):
     result_sum = browser.find_element_by_id('result-sum').text
     assert 'руб./год' in result_sum
     assert len(result_number) == 8
-    browser.quit()
+    
 
